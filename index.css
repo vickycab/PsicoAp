@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* dispositivos móviles */
+  @media only screen and (max-width: 768px) {
+    /* pantallas pequeñas */
+    .jumbotron {
+      height: 250px;
+    }
+    .main_img {
+      height: 30vh;
+    }
+    .columnas {
+      width: 100%;
+    }
+  }
+  
+  /* dispositivos escritorio */
+  @media only screen and (min-width: 769px) {
+    /* pantallas grandes */
+    .jumbotron {
+      height: 350px;
+    }
+    .main_img {
+      height: 40vh;
+    }
+    .columnas {
+      width: 500px;
+    }
+  }
+  
+  .text_center {
+    text-align: center;
+  }
+  
+  /* header */
+  .navbar {
+    background-color: orange;
+  }
+  
+  .navbar-toggler i {
+    color: black;
+  }
+  
+  .nav-link {
+    color: #fff !important;
+    font-weight: bold;
+  }
+  
+  .nav-link:hover {
+    color: #000 !important;
+  }
+  
+  .jumbotron {
+    background-image: url(imagenes/Psicopedagogia-2.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-shadow: 0 0 5px #333;
+    border-radius: 0;
+    margin-bottom: 0;
+    height: 350px;
+  }
+  
+  .jumbotron .call {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+  }
+  
+  .jumbotron h1 {
+    color: #000;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .jumbotron p {
+    color: #000;
+    font-weight: bold;
+    font-size: larger;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .btn-warning {
+    background-color: orange;
+  }
+  
+  .btn-warning:hover {
+    background-color: orangered;
+  }
+  
+  /* main */
+  .main_text2 {
+    padding: 10px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .presentación {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    height: 37vh;
+    width: auto;
+  }
+  
+  .main_img {
+    height: 40vh;
+    width: auto;
+  }
+  
+  .columnas {
+    display: inline-block;
+    padding: 20px;
+    text-align: center;
+    width: 500px;
+  }
+  
+  .navBar_psico {
+    background-color: rgba(255, 166, 0, 0.363);
+  }
+  
+  .card-title {
+    text-align: center;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .card-text {
+    text-align: center;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  .card-img-top {
+    width: 200px;
+    display: grid;
+    place-items: center;
+  }
+  
+  .call {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .caja {
+    height: auto;
+    width: auto;
+    background-color: rgba(255, 166, 0, 0.514);
+    border: 2px solid #333;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* footer */
+  .footer {
+    background-color: orange;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .footer ul li {
+    margin-right: 20px;
+  }
+  
+  .footer ul li a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .footer_img {
+    height: 3vh;
+    width: auto;
+  }
